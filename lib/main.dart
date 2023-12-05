@@ -184,7 +184,6 @@ class _MyCalculatorState extends State<MyCalculator> {
     String name = nameController.text.trim();
 
 
-
     return ElevatedButton(onPressed: () async{
       double weight = double.parse(weightController.text.trim());
       double height = double.parse(heightController.text.trim());
